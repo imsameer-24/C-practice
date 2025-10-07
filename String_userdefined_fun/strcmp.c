@@ -4,7 +4,7 @@ int main()
 {
 	char a[20],b[20];
 	int r;
-	printf("enter 2 strings\n");
+	printf("enter 2 strings a and b\n");
 	scanf("%s%s",a,b);
 	r=my_strcmp(a,b);
 	if(r==0)
