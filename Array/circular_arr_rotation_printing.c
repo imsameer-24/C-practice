@@ -9,10 +9,10 @@ int main()
 	n=sizeof(a)/sizeof(a[0]);
 
 	printf("{");
-	for(i=7-k;count<7;i++,count++)
+	for(i=n-k;count<n;i++,count++)
 	{
-		if(k!=7)
-			if(i==7)
+		if(k!=n)
+			if(i==n)
 				i=0;
 		printf("%d,",a[i]);
 	}
