@@ -2,7 +2,6 @@
 
 
 #include<stdio.h>
-#include<string.h>
 char *my_strncat(char *,char *,int);
 int main()
 {
