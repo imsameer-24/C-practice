@@ -8,7 +8,7 @@ int main(){
         int n;
         printf("Enter src string : ");
         scanf("%s",s);
-        printf("Enter value of n : ");
+        printf("Enter the position upto when you wnat to copy : ");
         scanf("%d",&n);
         char *p= my_strncpy(s,d,n);
         printf("s=%s\n",s);
