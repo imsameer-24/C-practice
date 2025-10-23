@@ -13,6 +13,10 @@ int main()
 	printf("Enter a character\n");
 	scanf(" %c",&ch);
 	int r = fun(s,ch);
+	if(r==0){
+		printf("%c is not present in %s\n",ch,s);
+		return 0;
+	}
 	printf("%d times present\n",r);
 }
 int fun(char *s,char n)
