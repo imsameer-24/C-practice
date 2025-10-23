@@ -12,7 +12,7 @@ int main()
 	scanf("%s",s);
 	printf("Enter the destination string\n");
 	scanf("%s",d);
-	printf("Enter n value\n");
+	printf("Enter the posion upto where you want to attatch the 2nd string : ");
 	scanf("%d",&n);
 	char *p=my_strncat(d,s,n);
 	printf("s=%s\n",s);
