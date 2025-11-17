@@ -12,15 +12,15 @@ int main()
 		num=n;
 		sum=0;
 
-	for(;num!=0;num/=10)
-	{
-		r=num%10;
-		for(res=1;r!=0;r--)
-			res=res*r;
-		sum=sum+res;
-	}
-	if(sum==n)
-		printf("%d\n",sum);
+		for(;num!=0;num/=10)
+		{
+			r=num%10;
+			for(res=1;r!=0;r--)
+				res=res*r;
+			sum=sum+res;
+		}
+		if(sum==n)
+			printf("%d\n",sum);
 	
 	}
 
