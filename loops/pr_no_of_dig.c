@@ -1,4 +1,4 @@
-//write a program to print digits in the given number.
+//write a program to print number of digits in the given number.
 
 #include<stdio.h>
 int main()
