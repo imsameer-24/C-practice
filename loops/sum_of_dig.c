@@ -5,13 +5,13 @@
 #include<stdio.h>
 int main()
 {
-	int sum,n,r,r1=0;
+	int n,r,sum=0;
 	printf("enter a number\n");
 	scanf("%d",&n);
 	while(n!=0){
 	
-		r=(n%10);
-                r1+=r;
+		r=n%10;
+    	sum+=r;
 		n=n/10;
 	}
 	/*
@@ -22,7 +22,7 @@ int main()
                 n=n/10;
         }
 	*/
-	printf("%d\n",r1);
+	printf("%d\n",sum);
 }
 
 	        
