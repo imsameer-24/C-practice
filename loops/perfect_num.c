@@ -5,14 +5,14 @@
 #include<stdio.h>
 int main()
 {
-	int n,x,r,sum=0;
+	int n,i,r,sum=0;
 	printf("Enter a number\n");
 	scanf("%d",&n);
-	for(x=1;x<n;x++)
+	for(i=1;i<n;i++)
 	{
-		r=n%x;
+		r=n%i;
 		if(r==0)
-			sum=sum+x;
+			sum=sum+i;
 	}
 	if(sum==n)
 		printf("its a perfect number\n");
