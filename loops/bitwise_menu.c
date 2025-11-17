@@ -1,4 +1,4 @@
-//write a program to desine a menu for bitwise op.
+//write a program to design a menu for bitwise operator.
 
 
 
