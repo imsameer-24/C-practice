@@ -8,14 +8,14 @@ int main()
 	printf("Enter a string : ");
 	scanf("%s",s);
 
-	for(i=0;i<strlen(s);i++){
+	for(i=0;s[i];i++){
 		for(j=0;j<i;j++)
 			if(s[i]==s[j])
 				break;
 		if(i!=j)
 			continue;
 		count=0;
-		for(j=i;j<strlen(s);j++)
+		for(j=i;s[j];j++)
 			if(s[i]==s[j])
 				count++;
 		printf("%c --> %d\n",s[i],count);
