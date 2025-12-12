@@ -6,7 +6,7 @@
 int main()
 {
 	int a[]={100,26,30,95,23,84,75,95,54,67,72};
-	int n,i,b1,b2;
+	int n,i,b1,b2=0;
 	n=sizeof a/sizeof a[0];
 	for(i=0;i<n;i++)
 		printf("%d ",a[i]);
